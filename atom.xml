@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Shrestha Amit,]]></title>
+  <link href="http://amitshrestha.github.io/atom.xml" rel="self"/>
+  <link href="http://amitshrestha.github.io/"/>
+  <updated>2013-06-07T17:01:43+05:45</updated>
+  <id>http://amitshrestha.github.io/</id>
+  <author>
+    <name><![CDATA[Amit Shrestha]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[About This Blog]]></title>
+    <link href="http://amitshrestha.github.io/blog/2013/06/07/way-to-go-long/"/>
+    <updated>2013-06-07T10:40:00+05:45</updated>
+    <id>http://amitshrestha.github.io/blog/2013/06/07/way-to-go-long</id>
+    <content type="html"><![CDATA[<p>This blog is created with the purpose of learning web development. Learning in two ways, first: Learning about web development and second: Providing some learning materials to the reader.
+Some fun materials are also included in this blog.
+I hope you like the contents of this blog.</p>
+]]></content>
+  </entry>
+  
+</feed>
