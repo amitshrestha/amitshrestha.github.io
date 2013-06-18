@@ -1,15 +1,15 @@
 <div id='main-content'>
 <script type="text/javascript">
   var gre_words=[
-  {word: "honey", usage: 'bunny'},
-  {word: "money", usage: 'k ho k ho'},
-  {word: "paisa", usage: 'tei ho'},
-  {word: "dollar", usage: 'khoi k ho?'},
-  {word: "collar", usage: 'hyaa tei ho k'}
+  {word: "abase (v) : ", meaning: 'lower, degrade, humiliate',usage1: 'Abasing someone in front of others is not a good practice.', usage2: 'The criminal conviction served to abase his reputation in the community.'},
+  {word: "money", meaning: 'thik 6',usage: 'k ho k ho'},
+  {word: "paisa", meaning: 'thik 6',usage: 'tei ho'},
+  {word: "dollar", meaning: 'thik 6',usage: 'khoi k ho?'},
+  {word: "collar", meaning: 'thik 6',usage: 'hyaa tei ho k'}
   ];
   var tmpl = "";
   gre_words.forEach(function(el, index, array){
-    tmpl += "<div class = 'each-word'><span class = 'word'>"+el.word+"</span><br /><span class = 'usage'>"+el.usage+"</span></div>";
+    tmpl += "<div class = 'each-word'><span class = 'word'>"+el.word+"</span><span class = 'meaning'>"+el.meaning+"</span><br /><hr><div class = 'usage'><span class = 'usage-label'>Usage : </span></div><div class = 'each-usage'><span class = 'usage'> "+el.usage1+"</span><br /><span class = 'usage'> "+el.usage2+"</span></div></div>";
   });
   $('#main-content').html(tmpl);
 </script>

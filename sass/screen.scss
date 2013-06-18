@@ -29,6 +29,23 @@ div#main-content{
   width: 100%;
   background-color: white;
 }
-
-
+span.word{
+	font-weight: bold;
+	font-size: 20px;
+}
+span.usage-label{
+	font-style: italic;
+	font-size: 14px;
+}
+div.usage{
+	width: 65px;
+	float: left;
+	height: 31px;
+}
+div.each-usage{
+	float: left;
+	width: 308px;
+	font-size: 15px;
+	font-family: serif;
+}
 
