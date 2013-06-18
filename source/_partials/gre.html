@@ -1,0 +1,16 @@
+<div id='main-content'>
+<script type="text/javascript">
+  var gre_words=[
+  {word: "honey", usage: 'bunny'},
+  {word: "money", usage: 'k ho k ho'},
+  {word: "paisa", usage: 'tei ho'},
+  {word: "dollar", usage: 'khoi k ho?'},
+  {word: "collar", usage: 'hyaa tei ho k'}
+  ];
+  var tmpl = "";
+  gre_words.forEach(function(el, index, array){
+    tmpl += "<div class = 'each-word'><span class = 'word'>"+el.word+"</span><br /><span class = 'usage'>"+el.usage+"</span></div>";
+  });
+  $('#main-content').html(tmpl);
+</script>
+</div>
