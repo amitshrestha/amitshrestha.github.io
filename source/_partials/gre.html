@@ -2,11 +2,17 @@
 <script type="text/javascript">
   var gre_words=[
   {word: "abase (v) : ", meaning: 'lower, degrade, humiliate',usage1: 'Abasing someone in front of others is not a good practice.', usage2: 'The criminal conviction served to abase his reputation in the community.'},
-  {word: "money", meaning: 'thik 6',usage: 'k ho k ho'},
-  {word: "paisa", meaning: 'thik 6',usage: 'tei ho'},
-  {word: "dollar", meaning: 'thik 6',usage: 'khoi k ho?'},
-  {word: "collar", meaning: 'thik 6',usage: 'hyaa tei ho k'}
+  {word: "abash (v) : ", meaning: 'embarrass',usage1: 'I abashed my teacher when I told him that he is short.', usage2: 'He was a little abashed by her legal composure.'},
+  {word: "abate (v) : ", meaning: 'subside or moderate',usage1: 'Rather than leaving immediately, they waited for the storm to abate.', usage2: 'He waited for his anger to abate before answering his accuser.'},
+  {word: "abbreviate (v) : ", meaning: 'condense, shorten',usage1: 'Because we were runnig out of time, the lecturer had to abbreviate her speech.', usage2: 'The world wide web is often abbreviated to the web or www.'},
+  {word: "abdicate (v) :", meaning: 'renounce, give up',usage1: 'The King abdicated when he married a divorcee.', usage2: 'Too many parents abdicate their responsibilities and expect the school to teach their children discipline.'},
+  {word: "aberrant (adj) : ", meaning: 'deviate, abnormal',usage1: 'Given the aberrant nature of the data, we came to doubt the validity of the entire experiment.', usage2: ''},
+  {word: "aberration (n) : ", meaning: 'abnormality, mental disorder, deviation from normal',usage1: 'The problem with many low priced cameras, is color aberration in the final image.', usage2: 'An extra finger or toe is an unusual aberration.'},
+  {word: "abet (v) : ", meaning: 'assist usually in doing something wrong; encourage',usage1: 'she was unwilling to abet him in the swindle he had planned.', usage2: 'The Joker helped to abet the bank robbery.'},
+  {word: "abeyance (v) : ", meaning: 'suspended action, pending',usage1: 'The deal was held in abeyance until her arrival.', usage2: ''},
+  {word: "abhor (v) : ", meaning: 'hate, detest, loathe',usage1: 'She abhorred all forms of bigotry.', usage2: 'i just abhor questions like this.'}
   ];
+
   var tmpl = "";
   gre_words.forEach(function(el, index, array){
     tmpl += "<div class = 'each-word'><span class = 'word'>"+el.word+"</span><span class = 'meaning'>"+el.meaning+"</span><br /><hr><div class = 'usage'><span class = 'usage-label'>Usage : </span></div><div class = 'each-usage'><span class = 'usage'> "+el.usage1+"</span><br /><span class = 'usage'> "+el.usage2+"</span></div></div>";
@@ -14,3 +20,4 @@
   $('#main-content').html(tmpl);
 </script>
 </div>
+
